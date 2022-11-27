@@ -171,9 +171,9 @@ button:focus {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s; }
   .primary-btn:hover {
-    background: #e45447;
+    background: #0c7d28;
     color: #fff;
-    border: 2px solid transparent; }
+    border: 2px solid; }
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -218,7 +218,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #00b3ff; }
+          background: #0c7d28 }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -281,7 +281,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #ffd200;
+    background: #09369f;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -418,7 +418,8 @@ button:focus {
 /* Projects Area css
 ============================================================================================ */
 .projects_fillter {
-  background: #ffd200; }
+    background: #09369f;
+     }
   .projects_fillter .filter {
     position: relative;
     text-align: center;
@@ -2740,7 +2741,7 @@ h6 {
     margin: 4px;
     font-weight: 500;
     text-transform: uppercase;
-    background: #ffd200; }
+    background: #006eff; }
     .newsletter_form .navbar-form .genric-btn:hover {
       background-color: #e45447;
       color: #ffffff; }
@@ -2761,7 +2762,7 @@ h6 {
     margin-bottom: 23px; }
 
   .header_area .navbar {
-    background: #e45447; }
+    background: #0b90f6; }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
@@ -2845,7 +2846,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #0066ffea; }
+  background: #0444b4; }
 
 .social_widget .f_title h4 {
   font-size: 21px;
@@ -2861,7 +2862,7 @@ h6 {
   margin-right: 40px;
   display: inline-block; }
   .social_widget .list li a {
-    color: #c48e0b;
+    color: #000000;
     font-size: 36px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -2870,14 +2871,14 @@ h6 {
   .social_widget .list li:last-child {
     margin-right: 0px; }
   .social_widget .list li:hover a {
-    color: #e45447; }
+    color: #000000; }
 
 .copyright {
-  margin-top: 40px; }
+  margin-top: 15px; }
   .copyright p {
     color: #000; }
     .copyright p a {
-      color: #e45447; }
+      color: #000000; }
 
 /* End Footer Area css
 ============================================================================================ */
