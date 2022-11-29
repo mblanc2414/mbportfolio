@@ -356,11 +356,12 @@ button:focus {
     @media (max-width: 991px) {
       .banner-content h1 {
         font-size: 40px; } }
+        /* SUBTITLE UNDER NAME HERE */
   .banner-content h3 {
     /* font-size: 30px; */
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
-    color: #000;
+    color: rgb(25, 59, 195);
     margin-bottom: 30px; }
     @media (max-width: 991px) {
       .banner-content h3 {
