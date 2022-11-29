@@ -16,7 +16,9 @@ Author E-mail: naimlasker@gmail.com
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400,500,500i");
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Patua+One&display=swap'); */
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -25,15 +27,16 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+/* PROJECT NAMES/DETAILS/CATEGORIES */
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-weight: 500;
   color: #777777; }
   body.elements {
     font-weight: 400; }
-
+/* PROJECT NAMES/DETAILS/CATEGORIES */
 html,
 body {
   height: 100%; }
@@ -43,10 +46,12 @@ h2,
 h3,
 h4,
 h5,
+/* MAIN TITLE FONT */
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inconsolata', monospace;
+/* font-family: 'Patua One', cursive; */
   font-weight: 700; }
-
+/* MAIN TITLE FONT */
 .list {
   list-style: none;
   margin: 0px;
@@ -105,7 +110,7 @@ button:focus {
     .main-title {
       margin-bottom: 40px; } }
   .main-title h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 48px;
     color: #222222;
     font-weight: 700;
@@ -352,8 +357,8 @@ button:focus {
       .banner-content h1 {
         font-size: 40px; } }
   .banner-content h3 {
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
+    /* font-size: 30px; */
+    font-family: 'Inconsolata', monospace;
     font-weight: 400;
     color: #000;
     margin-bottom: 30px; }
