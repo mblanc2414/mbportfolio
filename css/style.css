@@ -33,13 +33,16 @@ body {
   font-size: 14px;
   font-family: 'Inconsolata', monospace;
   font-weight: 500;
-  color: #777777; }
+  color: #fcfbff; }
   body.elements {
     font-weight: 400; }
 /* PROJECT NAMES/DETAILS/CATEGORIES */
 html,
+/* BACKGROUND COLOR HERE */
 body {
-  height: 100%; }
+  height: 100%; 
+  background-color:#09369f;
+}
 
 h1,
 h2,
@@ -49,8 +52,7 @@ h5,
 /* MAIN TITLE FONT */
 h6 {
   font-family: 'Inconsolata', monospace;
-/* font-family: 'Patua One', cursive; */
-  font-weight: 700; }
+  font-weight: 500; }
 /* MAIN TITLE FONT */
 .list {
   list-style: none;
@@ -97,9 +99,9 @@ button:focus {
   @media (max-width: 991px) {
     .section_gap_bottom {
       padding-bottom: 80px; } }
-
+/* ABOUT SECTION FOOTER COLOR BELOW */
 .gray-bg {
-  background: #f9f9ff; }
+  background: #f9fffc; }
 
 /* Main Title Area css
 ============================================================================================ */
@@ -453,7 +455,7 @@ button:focus {
       .projects_fillter .filter li:last-child {
         margin-right: 0px; }
       .projects_fillter .filter li.active, .projects_fillter .filter li:hover {
-        color: #e45447; }
+        color: #f8711d; }
 
 .projects_inner {
   margin-bottom: -30px; }
