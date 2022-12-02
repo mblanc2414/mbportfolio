@@ -209,6 +209,7 @@ button:focus {
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
+        /* HOME NAV BAR ATTRIBUTES */
         font: 500 20px/100px 'Inconsolata', monospace;
         text-transform: capitalize;
         color: #000;
