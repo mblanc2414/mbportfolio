@@ -212,14 +212,14 @@ button:focus {
         /* HOME NAV BAR ATTRIBUTES */
         font: 500 20px/100px 'Inconsolata', monospace;
         text-transform: capitalize;
-        color: #000;
+        color: rgb(255, 255, 255);
         padding: 0px;
         display: inline-block;
         font-size: 16px; }
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #ffffff; }
+        color: #10a6d8; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
