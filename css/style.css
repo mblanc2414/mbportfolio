@@ -41,7 +41,7 @@ html,
 /* BACKGROUND COLOR HERE */
 body {
   height: 100%; 
-  background-color:#09369f;
+  background-color:#04246f;
 }
 
 h1,
@@ -52,7 +52,9 @@ h5,
 /* MAIN TITLE FONT */
 h6 {
   font-family: 'Inconsolata', monospace;
-  font-weight: 500; }
+  font-weight: 500; 
+   
+}
 /* MAIN TITLE FONT */
 .list {
   list-style: none;
@@ -178,7 +180,7 @@ button:focus {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s; }
   .primary-btn:hover {
-    background: #0c7d28;
+    background: #2d99cb;
     color: #fff;
     border: 2px solid; }
 
@@ -351,20 +353,26 @@ button:focus {
       border-color: #e45447;
       color: #000; }
   .banner-content h1 {
-    color: #000;
+    /* TITLE ATTRIBUTES */
+    color: rgb(0, 0, 0);
     font-size: 60px;
     font-weight: 700;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    display:flex;
+   }
     @media (max-width: 991px) {
       .banner-content h1 {
         font-size: 40px; } }
         /* SUBTITLE UNDER NAME HERE */
   .banner-content h3 {
     /* font-size: 30px; */
+    /* SUBTITLE ATTRIBUTES */
     font-family: 'Inconsolata', monospace;
     font-weight: 400;
-    color: rgb(25, 59, 195);
-    margin-bottom: 30px; }
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px; 
+    display:flex;
+  }
     @media (max-width: 991px) {
       .banner-content h3 {
         font-size: 20px; } }
