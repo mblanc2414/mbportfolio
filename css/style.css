@@ -31,7 +31,8 @@ Author E-mail: naimlasker@gmail.com
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: 'Inconsolata', monospace;
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Bungee Inline';
   font-weight: 500;
   color: #fcfbff; }
   body.elements {
@@ -52,6 +53,7 @@ h5,
 /* MAIN TITLE FONT */
 h6 {
   font-family: 'Inconsolata', monospace;
+  /* font-family: 'Bungee Inline'; */
   font-weight: 500; 
    
 }
