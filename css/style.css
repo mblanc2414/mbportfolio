@@ -28,6 +28,10 @@ Author E-mail: naimlasker@gmail.com
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* PROJECT NAMES/DETAILS/CATEGORIES */
+.github, .linkedin, .gmail {
+  height: 50px;
+  width: 50px;
+}
 body {
   line-height: 24px;
   font-size: 14px;
