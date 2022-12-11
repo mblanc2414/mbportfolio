@@ -56,8 +56,8 @@ h4,
 h5,
 /* MAIN TITLE FONT */
 h6 {
-  font-family: 'Inconsolata', monospace;
-  /* font-family: 'Bungee Inline'; */
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Bungee Inline';
   font-weight: 500; 
    
 }
@@ -109,7 +109,8 @@ button:focus {
       padding-bottom: 80px; } }
 /* ABOUT SECTION FOOTER COLOR BELOW */
 .gray-bg {
-  background: #f9fffc; }
+  /* skills background */
+  background: #2652b8; }
 
 /* Main Title Area css
 ============================================================================================ */
@@ -120,9 +121,11 @@ button:focus {
     .main-title {
       margin-bottom: 40px; } }
   .main-title h1 {
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Bungee Inline', monospace;
     font-size: 48px;
     /* project title attributes */
+    /* SKILLS TITLE ATTRIBUTES */
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 20px;
@@ -140,7 +143,7 @@ button:focus {
       height: 2px;
       width: 100px;
       content: "";
-      background: #e45447;
+      background:  #e45447;
       margin-left: -50px; }
       @media (max-width: 767px) {
         .main-title h1:before {
@@ -160,7 +163,8 @@ button:focus {
           display: none; } }
   .main-title p {
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Bungee Inline', monospace;
     line-height: 26px;
     color: #777777;
     margin-bottom: 0px;
@@ -171,7 +175,8 @@ button:focus {
 .primary-btn {
   display: inline-block;
   color: #000;
-  font-family: "Roboto", sans-serif;
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Bungee Inline', monospace;
   font-size: 15px;
   font-weight: 500;
   line-height: 46px;
@@ -217,7 +222,8 @@ button:focus {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
         /* HOME NAV BAR ATTRIBUTES */
-        font: 500 20px/100px 'Inconsolata', monospace;
+        /* font: 500 20px/100px 'Inconsolata', monospace; */
+        font-family: 'Bungee Inline', monospace;
         text-transform: capitalize;
         color: rgb(255, 255, 255);
         padding: 0px;
@@ -362,7 +368,7 @@ button:focus {
       color: #000; }
   .banner-content h1 {
     /* TITLE ATTRIBUTES */
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -375,8 +381,9 @@ button:focus {
   .banner-content h3 {
     /* font-size: 30px; */
     /* SUBTITLE ATTRIBUTES */
-    font-family: 'Inconsolata', monospace;
-    font-weight: 400;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Bungee Inline', monospace;
+    font-weight: 100;
     color: rgb(255, 255, 255);
     margin-bottom: 30px; 
     display:flex;
@@ -414,7 +421,7 @@ button:focus {
       .banner_area .banner_inner .banner_content .page_link a {
         font-size: 14px;
         color: #000;
-        font-family: "Roboto", sans-serif;
+        font-family: 'Inconsolata', monospace;
         margin-right: 14px;
         position: relative; }
         .banner_area .banner_inner .banner_content .page_link a:before {
@@ -442,7 +449,7 @@ button:focus {
 /* Projects Area css
 ============================================================================================ */
 .projects_fillter {
-    background: #09369f;
+    background: #032573;
      }
   .projects_fillter .filter {
     position: relative;
@@ -2788,6 +2795,7 @@ h6 {
   .header_area .navbar {
     background: #0b90f6; }
 
+
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
 
@@ -2870,7 +2878,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #0444b4; }
+  background: #2652b8; }
 
 .social_widget .f_title h4 {
   font-size: 21px;
