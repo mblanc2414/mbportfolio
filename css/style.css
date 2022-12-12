@@ -35,10 +35,12 @@ Author E-mail: naimlasker@gmail.com
 body {
   line-height: 24px;
   font-size: 14px;
+  font-family: 'Patua One';
   /* font-family: 'Inconsolata', monospace; */
   /* font-family: 'Bungee Inline'; */
-  font-family: 'League Spartan';
+  /* font-family: 'League Spartan'; */
   /* font-family: 'Lalezar'; */
+  /* font-family: 'Titillium Web'; */
   font-weight: 500;
   color: #fcfbff; }
   body.elements {
@@ -58,10 +60,12 @@ h4,
 h5,
 /* MAIN TITLE FONT */
 h6 {
+  font-family: 'Patua One';
   /* font-family: 'Inconsolata'; */
   /* font-family: 'Bungee Inline'; */
   /* font-family: 'Lalezar'; */
-  font-family: 'League Spartan';
+  /* font-family: 'League Spartan'; */
+  /* font-family: 'Titillium Web'; */
   font-weight: 500; 
    
 }
@@ -127,7 +131,9 @@ button:focus {
   .main-title h1 {
     /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Bungee Inline', monospace; */
-    font-family:'League Spartan';
+    /* font-family:'League Spartan'; */
+    /* font-family: 'Titillium Web'; */
+    font-family: 'Patua One';
     font-size: 48px;
     /* project title attributes */
     /* SKILLS TITLE ATTRIBUTES */
@@ -136,7 +142,8 @@ button:focus {
     margin-bottom: 20px;
     padding-bottom: 15px;
     text-transform: capitalize;
-    position: relative; }
+    position: relative; 
+  }
     @media (max-width: 767px) {
       .main-title h1 {
         font-size: 36px;
@@ -170,7 +177,9 @@ button:focus {
     font-size: 15px;
     /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Bungee Inline', monospace; */
-    font-family: 'League Spartan';
+    /* font-family: 'League Spartan'; */
+    /* font-family: 'Titillium Web'; */
+    font-family: 'Patua One';
     line-height: 26px;
     color: #777777;
     margin-bottom: 0px;
@@ -183,7 +192,9 @@ button:focus {
   color: rgb(255, 255, 255);
   /* font-family: 'Inconsolata', monospace; */
   /* font-family: 'Bungee Inline', monospace; */
-  font-family: 'League Spartan';
+  /* font-family: 'League Spartan'; */
+  /* font-family: 'Titillium Web'; */
+  font-family: 'Patua One';
   font-size: 15px;
   font-weight: 500;
   line-height: 46px;
@@ -231,7 +242,9 @@ button:focus {
         /* HOME NAV BAR ATTRIBUTES */
         /* font: 500 20px/100px 'Inconsolata', monospace; */
         /* font-family: 'Bungee Inline', monospace; */
-        font-family: 'League Spartan';
+        /* font-family: 'League Spartan'; */
+        /* font-family: 'Titillium Web'; */
+        font-family: 'Patua One';
         text-transform: capitalize;
         color: rgb(255, 255, 255);
         padding: 0px;
@@ -391,7 +404,9 @@ button:focus {
     /* SUBTITLE ATTRIBUTES */
     /* font-family: 'Inconsolata', monospace; */
     /* font-family: 'Bungee Inline', monospace; */
-    font-family: 'League Spartan';
+    /* font-family: 'League Spartan'; */
+    /* font-family: 'Titillium Web'; */
+    font-family: 'Patua One';
     font-weight: 100;
     color: rgb(255, 255, 255);
     margin-bottom: 30px; 
@@ -431,7 +446,9 @@ button:focus {
         font-size: 14px;
         color: #000;
         /* font-family: 'Inconsolata', monospace; */
-        font-family: 'League Spartan';
+        /* font-family: 'League Spartan'; */
+        /* font-family: 'Titillium Web'; */
+        font-family: 'Patua One';
         margin-right: 14px;
         position: relative; }
         .banner_area .banner_inner .banner_content .page_link a:before {
@@ -623,7 +640,8 @@ button:focus {
   font-size: 13px;
   font-weight: 500;
   /* font-family: "Roboto", sans-serif; */
-  font-family: 'League Spartan';
+  /* font-family: 'League Spartan'; */
+  font-family: 'Titillium Web';
   color: #222222;
   line-height: 34px;
   display: inline-block; }
@@ -640,7 +658,8 @@ button:focus {
   padding: 0px 28px;
   font-size: 14px;
   /* font-family: "Roboto", sans-serif; */
-  font-family: 'League Spartan';
+  /* font-family: 'League Spartan'; */
+  font-family: 'Titillium Web';
   font-weight: 500;
   text-transform: uppercase;
   -webkit-transition: all 0.4s ease 0s;
@@ -699,7 +718,8 @@ button:focus {
     .causes_item .causes_text h4 {
       color: #222222;
       /* font-family: "Roboto", sans-serif; */
-      font-family: 'League Spartan';
+      /* font-family: 'League Spartan'; */
+      font-family: 'Titillium Web';
       font-size: 18px;
       font-weight: 600;
       margin-bottom: 15px;
@@ -720,7 +740,8 @@ button:focus {
     line-height: 50px;
     background: #e45447;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: 'Titillium Web';
     font-size: 14px;
     font-weight: 500; }
     .causes_item .causes_bottom a + a {
@@ -1341,7 +1362,8 @@ button:focus {
     color: #999;
     border: 1px solid #eeeeee;
     /* font-family: "Roboto", sans-serif; */
-    font-family: 'League Spartan';
+    /* font-family: 'League Spartan'; */
+    font-family: 'Titillium Web';
     border-radius: 0px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1399,7 +1421,8 @@ button:focus {
       color: #e45447;
       padding-bottom: 10px;
       /* font-family: "Roboto", sans-serif; */
-      font-family: 'League Spartan';
+      /* font-family: 'League Spartan'; */
+      font-family: 'Titillium Web';
      }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
@@ -2904,7 +2927,8 @@ h6 {
   font-size: 14px;
   line-height: 24px;
   /* font-family: "Roboto", sans-serif; */
-  font-family: 'League Spartan';
+  /* font-family: 'League Spartan'; */
+  font-family: 'Titillium Web';
   color: #777777;
   margin-bottom: 10px; }
 .social_widget .list li {
