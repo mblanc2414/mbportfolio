@@ -37,6 +37,7 @@ body {
   font-size: 14px;
   /* font-family: 'Inconsolata', monospace; */
   font-family: 'Bungee Inline';
+  /* font-family: 'Lalezar'; */
   font-weight: 500;
   color: #fcfbff; }
   body.elements {
@@ -56,8 +57,9 @@ h4,
 h5,
 /* MAIN TITLE FONT */
 h6 {
-  /* font-family: 'Inconsolata', monospace; */
+  /* font-family: 'Inconsolata'; */
   font-family: 'Bungee Inline';
+  /* font-family: 'Lalezar'; */
   font-weight: 500; 
    
 }
@@ -91,7 +93,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 120px 0; }
+  padding: 25px 0; }
   @media (max-width: 991px) {
     .section_gap {
       padding: 80px 0; } }
@@ -174,7 +176,7 @@ button:focus {
 ============================================================================================ */
 .primary-btn {
   display: inline-block;
-  color: #000;
+  color: rgb(255, 255, 255);
   /* font-family: 'Inconsolata', monospace; */
   font-family: 'Bungee Inline', monospace;
   font-size: 15px;
@@ -184,7 +186,7 @@ button:focus {
   outline: none !important;
   text-align: center;
   text-transform: capitalize;
-  border: 2px solid #90acd1;
+  border: 2px solid #e45447;
   border-radius: 50px;
   cursor: pointer;
   -webkit-transition: all 0.4s ease 0s;
@@ -192,7 +194,7 @@ button:focus {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s; }
   .primary-btn:hover {
-    background: #2d99cb;
+    background: #e45447;
     color: #fff;
     border: 2px solid; }
 
@@ -407,7 +409,7 @@ button:focus {
     background-size: cover;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h1 {
-      color: #000;
+      color: rgb(255, 255, 255);
       font-size: 60px;
       margin-bottom: 20px;
       text-transform: capitalize;
@@ -1292,8 +1294,8 @@ button:focus {
 /*----------------------------------------------------*/
 /*============== contact_area css ================*/
 .mapBox {
-  height: 420px;
-  margin-top: 80px; }
+  height: 0px;
+  margin-top: 0px; }
 
 .contact_info .info_item {
   position: relative;
@@ -1351,7 +1353,7 @@ button:focus {
   margin-top: 20px;
   border: 2px solid #e45447; }
   .contact_form .primary-btn:hover {
-    color: #000;
+    color: rgb(255, 255, 255);
     border: 2px solid #90acd1;
     background: transparent; }
 
@@ -2908,7 +2910,7 @@ h6 {
 .copyright {
   margin-top: 15px; }
   .copyright p {
-    color: #000; }
+    color: rgba(255, 255, 255, 0.231); }
     .copyright p a {
       color: #000000; }
 
