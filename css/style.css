@@ -232,7 +232,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #10a6d8; }
+        color: #8f99ae; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -304,7 +304,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #09369f;
+    background: #032573;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -455,7 +455,7 @@ button:focus {
     position: relative;
     text-align: center;
     margin-bottom: 50px;
-    padding: 13px 0; }
+    padding: 10px 0; }
     @media (max-width: 575px) {
       .projects_fillter .filter {
         padding: 13px; } }
